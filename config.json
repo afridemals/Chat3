@@ -12,7 +12,7 @@
   "antiInbox": false,
   "language": "en",
   "notesLanguage": "change to your language with ISO 639-1 code, available languages: vi (Vietnamese), en (English)",
-  "nickNameBot": "⤾➝Your Nila 🤭↬⤹🪼🩷🪻⇣",
+  "nickNameBot": "Your Sumaiya",
   "prefix": ".", 
   "reactUnsend": ["😡,🤬"],
   "adminOnly": {
@@ -22,17 +22,17 @@
   "adminBot": [
     "100092328931524",
     "61591169410501",
-    ""
+    "61571537507574"
   ],
   "premiumUsers": [
-    "100082814982394",
-    "100059794962025",
-    "61591169410501"
+    "100092328931524",
+    "61591169410501",
+    "61571537507574"
   ],
   "devUsers": [
-    "100059794962025",
-    "61576355017916",
-    "61591169410501"    
+    "100092328931524",
+    "61591169410501",
+    "61571537507574"    
   ],
   "notes_premiumUsers": "List of user IDs with premium access (role 3)",
   "notes_devUsers": "List of developer IDs with full access (role 4)",
