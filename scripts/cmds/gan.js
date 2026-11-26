@@ -9,7 +9,7 @@ module.exports = {
     name: "gan",
     version: "1.0.2",
     role: 0,
-    author: "MOHAMMAD AKASH",
+    author: "Afride Mals",
     shortDescription: "Play random song with command 🎶",
     longDescription: "Sends a random mp3 song from preset Catbox links.",
     category: "media",
@@ -48,7 +48,7 @@ module.exports = {
     }
 
     // ⏳ React for loading
-    api.setMessageReaction("🎵", messageID, () => {}, true);
+    api.setMessageReaction("❤️", messageID, () => {}, true);
 
     // 🎲 Random song index (avoid repeat)
     let index;
@@ -73,7 +73,7 @@ module.exports = {
       writer.on("finish", async () => {
         api.sendMessage(
           {
-            body: "🎶 Hᴇʀᴇ's ʏᴏᴜʀ sᴏɴɢ 🎧",
+            body: "send a voice message",
             attachment: fs.createReadStream(filePath)
           },
           threadID,
